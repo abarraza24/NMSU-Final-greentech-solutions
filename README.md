@@ -3,8 +3,8 @@
 Final project for NMSU Intro to Web Development. A multi-page client website for **GreenTech Solutions**, a fictional eco-tech startup based in Albuquerque, NM.
 
 ## GitHub
-Live Website: `https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`
-Repo:        `https://github.com/abarraza24/NMSU-Final-greentech-solutions`
+Live Website: [`https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`]
+Repo: [`https://github.com/abarraza24/NMSU-Final-greentech-solutions`]
 
 ## About the Project
 
