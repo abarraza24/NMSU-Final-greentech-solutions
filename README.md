@@ -3,14 +3,15 @@
 Final project for NMSU Intro to Web Development. A multi-page client website for **GreenTech Solutions**, a fictional eco-tech startup based in Albuquerque, NM.
 
 ## GitHub
-Live Website: [`https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`]
-Repo: [`https://github.com/abarraza24/NMSU-Final-greentech-solutions`]
+
+- **Live Website:** [https://abarraza24.github.io/NMSU-Final-greentech-solutions/](https://abarraza24.github.io/NMSU-Final-greentech-solutions/)
+- **Repo:** [https://github.com/abarraza24/NMSU-Final-greentech-solutions](https://github.com/abarraza24/NMSU-Final-greentech-solutions)
 
 ## About the Project
 
 GreenTech Solutions is the client for this assignment. They're a fictional startup (a subsidiary of GreenChile LLC) that builds eco-friendly tools for small and medium businesses, including energy efficient devices, smart recycling systems, and carbon tracking software.
 
-This website was built from scratch as a final project to demonstrate everything covered across the semester: HTML structure, external CSS styling, JavaScript interactivity, mobile responsiveness, and accessibility.
+This website was built from scratch as a final project to demonstrate everything covered across the semester. HTML structure, external CSS styling, JavaScript interactivity, mobile responsiveness, and accessibility.
 
 ## Pages
 
@@ -89,20 +90,23 @@ No build tools, package managers, or server setup required. Everything runs as s
 
 ### Option 2: View on GitHub Pages
 
-The live version of this site is hosted on GitHub Pages. See the **Live Site** link at the top of this README. or here                                                `https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`
+The live version of this site is hosted on GitHub Pages. See the **Live Website** link at the top of this README, or click here: [https://abarraza24.github.io/NMSU-Final-greentech-solutions/](https://abarraza24.github.io/NMSU-Final-greentech-solutions/)
 
 ### Option 3: Run on a Local Server (Optional)
 
-If you want to test it as if it were live, you can run a quick local server using Python:
+If you want to test it as if it were live, you have two easy options:
+
+**Using Python:**
 
 ```
-python -m http.server 8000 
-```
-```
-use the extension on VsCode called live server
+python -m http.server 8000
 ```
 
-Then open `http://localhost:8000` in your browser.
+Then open [http://localhost:8000](http://localhost:8000) in your browser.
+
+**Using VS Code:**
+
+Install the **Live Server** extension, then right-click `index.html` and choose "Open with Live Server."
 
 ## Validation
 
