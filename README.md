@@ -3,7 +3,8 @@
 Final project for NMSU Intro to Web Development. A multi-page client website for **GreenTech Solutions**, a fictional eco-tech startup based in Albuquerque, NM.
 
 ## GitHub
- `https://github.com/abarraza24/NMSU-Final-greentech-solutions`
+Live Website: `https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`
+Repo:        `https://github.com/abarraza24/NMSU-Final-greentech-solutions`
 
 ## About the Project
 
@@ -88,14 +89,17 @@ No build tools, package managers, or server setup required. Everything runs as s
 
 ### Option 2: View on GitHub Pages
 
-The live version of this site is hosted on GitHub Pages. See the **Live Site** link at the top of this README.
+The live version of this site is hosted on GitHub Pages. See the **Live Site** link at the top of this README. or here                                                `https://abarraza24.github.io/NMSU-Final-greentech-solutions/index.html`
 
 ### Option 3: Run on a Local Server (Optional)
 
 If you want to test it as if it were live, you can run a quick local server using Python:
 
 ```
-python -m http.server 8000 or use the extension on VsCode called live server
+python -m http.server 8000 
+```
+```
+use the extension on VsCode called live server
 ```
 
 Then open `http://localhost:8000` in your browser.
