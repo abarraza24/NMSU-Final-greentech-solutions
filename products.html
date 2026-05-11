@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTech Solutions | Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="brand">
+            <p class="brand-name">GreenTech Solutions</p>
+            <p class="brand-tag">Green tech, green chile, green future.</p>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="card">
+            <h1>Products and Services</h1>
+            <p>
+                Here's the full lineup. Some of these are devices you plug in, some are software you log into,
+                and a couple are services where we come out to your office. Use the search bar or category
+                filter if the list is long.
+            </p>
+        </section>
+
+        <section>
+            <h2>Search and Filter Products</h2>
+            <div class="card">
+                <div class="filter-tools">
+                    <div class="filter-group">
+                        <label for="product-search">Search</label>
+                        <input type="text" id="product-search" placeholder="Search products or services">
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="product-filter">Category</label>
+                        <select id="product-filter">
+                            <option value="all">All</option>
+                            <option value="energy">Energy</option>
+                            <option value="recycling">Recycling</option>
+                            <option value="software">Software</option>
+                            <option value="service">Service</option>
+                        </select>
+                    </div>
+                </div>
+
+                <p id="product-message" class="helper-text">Use the search and filter tools to narrow the list.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Available Solutions</h2>
+
+            <div class="home-grid" id="product-list">
+                <article class="card product-card" data-category="energy">
+                    <img src="images/energy-device.jpg" alt="Energy-efficient office device on a desk" class="page-image">
+                    <h3>Smart Energy Monitor</h3>
+                    <p>
+                        Plugs in and shows you exactly where your energy is going. Most offices find out within
+                        the first week that something they never thought about is running 24/7.
+                    </p>
+                </article>
+
+                <article class="card product-card" data-category="recycling">
+                    <img src="images/smart-recycling.jpg" alt="Smart recycling station in a modern office" class="page-image">
+                    <h3>Smart Recycling Station</h3>
+                    <p>
+                        A bin that does the sorting so your team doesn't have to. Tracks how much you actually
+                        divert from the trash, which is usually a humbling number at first.
+                    </p>
+                </article>
+
+                <article class="card product-card" data-category="software">
+                    <img src="images/carbon-tracking.jpg" alt="Carbon tracking dashboard with sustainability data" class="page-image">
+                    <h3>Carbon Tracking Dashboard</h3>
+                    <p>
+                        Web-based dashboard that connects to your utility accounts and devices. It tells you your
+                        emissions in plain numbers, not the kind of jargon that needs a degree to read.
+                    </p>
+                </article>
+
+                <article class="card product-card" data-category="energy">
+                    <h3>Efficient Lighting Upgrade</h3>
+                    <p>
+                        We come out, swap your old fixtures for LED with motion sensors, and you stop paying to
+                        light empty conference rooms at 8pm. Usually pays for itself in about two years.
+                    </p>
+                </article>
+
+                <article class="card product-card" data-category="service">
+                    <h3>Office Sustainability Audit</h3>
+                    <p>
+                        A walkthrough of your space where we find the obvious waste, the not-so-obvious waste,
+                        and the stuff you can fix this week without buying anything from us.
+                    </p>
+                </article>
+
+                <article class="card product-card" data-category="software">
+                    <h3>Reporting and Analytics Tool</h3>
+                    <p>
+                        Generates the kind of clean PDF reports you'd need for an ESG filing, a grant application,
+                        or a client that suddenly wants your emissions data by Friday.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>GreenTech Solutions</h3>
+                    <p>Eco-friendly technology designed to help businesses make smarter environmental decisions.</p>
+                    <p>A subsidiary of GreenChile LLC.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Project Note</h3>
+                    <p>This website was created as a final project for Intro to Web Development.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>GreenTech Solutions | Final Project Website</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
